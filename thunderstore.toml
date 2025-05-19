@@ -4,7 +4,6 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "MoSadie"
 name = "SlipPronouns"
-versionNumber = "1.0.0"
 description = "Adds automatic pronouns to crew members."
 websiteUrl = "https://github.com/MoSadie/SlipPronouns"
 containsNsfwContent = false

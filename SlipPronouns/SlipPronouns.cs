@@ -22,7 +22,7 @@ namespace SlipPronouns
 
         public static PronounFetcher pronounFetcher = new PronounFetcher();
 
-        public static readonly string COMPATIBLE_GAME_VERSION = "4.1579";
+        public static readonly string COMPATIBLE_GAME_VERSION = "4.1595";
         public static readonly string GAME_VERSION_URL = "https://raw.githubusercontent.com/MoSadie/SlipPronouns/refs/heads/main/versions.json";
 
         private void Awake()
