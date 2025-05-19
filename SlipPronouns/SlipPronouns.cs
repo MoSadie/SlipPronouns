@@ -12,7 +12,7 @@ namespace SlipPronouns
     [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
     [BepInDependency("com.mosadie.mocore", BepInDependency.DependencyFlags.HardDependency)]
     [BepInProcess("Slipstream_Win.exe")]
-    public class SlipPronouns : BaseUnityPlugin, MoPlugin
+    public class SlipPronouns : BaseUnityPlugin, IMoPlugin
     {
         private static ConfigEntry<string> url;
 
@@ -116,6 +116,10 @@ namespace SlipPronouns
         public BaseUnityPlugin GetPluginObject()
         {
             return this;
+        }
+        public IMoHttpHandler GetHttpHandler()
+        {
+            return null;
         }
 
         [HarmonyPatch(typeof(Player), "DisplayName", MethodType.Getter)]
