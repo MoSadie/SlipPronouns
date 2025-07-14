@@ -1,3 +1,7 @@
+## v1.0.1
+
+Update to MoCore v2.0.2.
+
 ## v1.0.0
 
 ### Initial Release!

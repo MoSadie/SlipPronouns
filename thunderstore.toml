@@ -4,13 +4,12 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "MoSadie"
 name = "SlipPronouns"
-versionNumber = "1.0.0"
 description = "Adds automatic pronouns to crew members."
 websiteUrl = "https://github.com/MoSadie/SlipPronouns"
 containsNsfwContent = false
 [package.dependencies]
 BepInEx-BepInExPack= "5.4.2100"
-MoSadie-MoCore= "1.0.0"
+MoSadie-MoCore= "2.0.2"
 
 
 [build]
